@@ -1,1 +1,1 @@
-DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AX4XfWgG1OVCOWAExi0KRmDwU2gSphLcs31LeCDG7FRioHjpVSajP7MjESXuSqW1fzYs6Q" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
+& "${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0AX4XfWgGG5JFce2dXWbKEKVklrCPuyURZ3-C-4hL5n05CAsvO7Wctnmygb3xFtgDDerCzw" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$Env:COMPUTERNAME
